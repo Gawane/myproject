@@ -1,0 +1,18 @@
+.grid-item{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  h1,h2{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
